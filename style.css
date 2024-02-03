@@ -1,0 +1,16 @@
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+.img-logo {
+  height: 50%; /* Điều chỉnh chiều cao theo nhu cầu */
+  width: 50%; /* Điều chỉnh chiều rộng theo nhu cầu */
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    width: fit-content; /* Sử dụng fit-content thay vì max-content */
+    font-size: 10px;
+  }
+}
